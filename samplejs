@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Arthimatic operations</title>
+
+    <script type="text/javascript">
+        //Additon
+        function add(a, b) {
+            return a + b
+        }
+        let sum = function (a, b) {
+            return a + b
+        }
+        let total = (a, b) => {
+            return a + b
+        }
+
+        function add(...args) {
+            let sum = 0
+            for (let a of args)
+                sum += a;
+            return sum;
+        }
+
+        console.log(add(2, 6))
+        console.log(sum(2, 6))
+        console.log(total(2, 6))
+        console.log(add(2, 6, 2, 9))
+
+        //Multiplication
+
+        function mul(a, b) {
+            return a * b
+        }
+        let mult = function (a, b) {
+            return a * b
+        }
+        let product = (a, b) => {
+            return a * b
+        }
+
+        function multi(...args) {
+            let prod = 1
+            for (let a of args)
+                prod *= a;
+            return prod;
+        }
+
+        console.log(mult(2, 6))
+        console.log(mul(2, 6))
+        console.log(product(2, 6))
+        console.log(multi(2, 6, 2, 9))
+
+        //subtraction
+
+        function sub(a, b) {
+            return a - b
+        }
+        let minus = function (a, b) {
+            return a - b
+        }
+        let subtraction = (a, b) => {
+            return a - b
+        }
+
+        console.log(sub(6, 2))
+        console.log(minus(6, 2))
+        console.log(subtraction(6, 2))
+
+        //divison
+
+        function div(a, b) {
+            return a / b
+        }
+        let divide = function (a, b) {
+            return a / b
+        }
+        let divison = (a, b) => {
+            return a / b
+        }
+
+        console.log(div(6, 2))
+        console.log(divide(6, 2))
+        console.log(divison(6, 2))
+    </script>
+</head>
+<body>
+</body>
+</html>
